@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Pop Quiz</title>
+
+</head>
+<body>
+<div id="container">
+    <!--Header-->
+    <div class="header">Rules for the Pop Quiz-aton</div>
+
+    <!--Rles-->
+    <ol>
+        <li>Test your knowledge in JavaScript</li>
+        <li>Select the correct answer from 4 options</li>
+        <li>You have a time limit</li>
+        <li>Have fun!</li>
+    </ol>
+
+    <div id="start-quiz">
+        <button id="start-quiz-btn"> Start</button>
+    </div>
+</div>
+<!--Quiz-->
+<div id="container">
+    <div class="header">Quiz-aton</div>
+<div id="content">
+    <div class="quiz-content">
+        <h2 class="question"></h2>
+            <div id="options-container">
+                <p id=options class="option1"></p>
+                <p id=options class="option2"></p>
+                <p id=options class="option2"></p>
+                <p id=options class="option3"></p>
+            </div> 
+    </div>
+</div>
+<div class="footer">
+<p id="clock">Time Left: 30 secs</p>
+<button id="next">Next</button>
+</div>
+</div>
+
+<div id="container">
+    <div class="header">Final Result</div>
+    <h2 id="score">You got 5 right answers out of 10</h2>
+    <div id="result">
+        <button id="again">Play Again</button>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
