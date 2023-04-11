@@ -11,9 +11,7 @@ Inside this repository you can find the source code under the name "index.html" 
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
-
+To access the repository follow this URL: https://github.com/RodrigoRoL/Final-Popquiz
+To deploy this website follow the following URL: https://rodrigorol.github.io/Final-Popquiz/
 
 
